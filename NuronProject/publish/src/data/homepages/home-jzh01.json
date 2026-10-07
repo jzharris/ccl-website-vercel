@@ -1,0 +1,54 @@
+{
+    "title": "home-01",
+    "content": [
+        {
+            "section": "hero-section",
+            "images": [
+                {
+                    "src": "/images/jzh/logo/assemble_logo_6ci.png"
+                }
+            ]
+        },
+        {
+            "section": "service-section",
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Wishlist on Steam",
+                    "path": "https://store.steampowered.com/app/2582250/Assemble/",
+                    "subtitle": "Step 1",
+                    "description": "Support the creators and get the latest news and updates.",
+                    "images": [
+                        {
+                            "src": "/images/jzh/icons/steam.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Join Our Discord",
+                    "path": "https://discord.gg/P3pN5WvJek",
+                    "subtitle": "Step 2",
+                    "description": "Share designs, schedule meetups, and become a beta tester.",
+                    "images": [
+                        {
+                            "src": "/images/jzh/icons/discord_img.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Join Patreon",
+                    "path": "https://patreon.com/AssembleVRGame?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link",
+                    "subtitle": "",
+                    "description": "Contribute directly to the game and get exclusive rewards",
+                    "images": [
+                        {
+                            "src": "/images/jzh/icons/patreon_img.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

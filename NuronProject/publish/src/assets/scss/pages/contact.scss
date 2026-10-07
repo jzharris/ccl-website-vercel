@@ -1,0 +1,14 @@
+.contact-top-area {
+    //background: linear-gradient(0deg, var(--background-color-1), var(--background-color-1-t));
+    background: var(--background-color-1);
+    padding: 50px 0;
+    margin: 50px 0;
+    @media #{$md-layout} {
+        padding: 40px 0;
+        margin: 40px 0;
+    }
+    @media #{$sm-layout} {
+        padding: 40px 0;
+        margin: 40px 0;
+    }
+}

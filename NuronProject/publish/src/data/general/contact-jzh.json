@@ -1,0 +1,29 @@
+{
+    "id": "contact-data-01",
+    "socials": [
+        {
+            "id": 3,
+            "icon": "discord",
+            "link": "https://discord.gg/P3pN5WvJek",
+            "title": "Discord"
+        },
+        {
+            "id": 1,
+            "icon": "tiktok",
+            "link": "https://www.tiktok.com/@carboncopyzach?_t=8f5WH6oclnX&_r=1",
+            "title": "TikTok"
+        },
+        {
+            "id": 2,
+            "icon": "twitter",
+            "link": "https://twitter.com/CarbonCopyZach",
+            "title": "Twitter"
+        },
+        {
+            "id": 4,
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/company/96639150/admin/feed/posts/",
+            "title": "LinkedIn"
+        }
+    ]
+}

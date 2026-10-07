@@ -1,0 +1,29 @@
+{
+    "id": "footer-data-01",
+    "logo-widget": {
+        "logo": [
+            {
+                "src": "/images/jzh/logo/ccl_logoA_2.png",
+                "alt": "logo"
+            }
+        ],
+        "text": "Create together"
+    },
+    "footer-link-widget": {
+        "menu": [
+            {
+                "id": 1,
+                "text": "Terms",
+                "path": "/terms-condition"
+            },
+            {
+                "id": 2,
+                "text": "Privacy Policy",
+                "path": "/privacy-policy"
+            }
+        ]
+    },
+    "footer_address": [
+    ],
+    "copyright_text": ["©2023 Carbon Copy Labs LLC.", "All rights reserved"]
+}

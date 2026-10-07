@@ -1,0 +1,17 @@
+.verify-wait-area {
+    padding: 34px 35px 14px;
+    border-radius: 6px;
+    background: var(--background-color-1);
+    height: 100%;
+    border: 1px solid var(--color-border);
+}
+
+.verify-failed-area {
+    @extend .verify-wait-area;
+    background: #8B005050;
+}
+
+.verify-succeeded-area {
+    @extend .verify-wait-area;
+    background: #218f0050;
+}

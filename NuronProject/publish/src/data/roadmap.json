@@ -1,0 +1,223 @@
+{
+    "content": [
+        {
+            "date": "October 2023",
+            "h3": "v0.1.x Laying the foundation",
+            "h4": "v0.1.x Laying the foundation",
+            "p": null,
+            "li": [
+                {
+                    "id": 1,
+                    "message": "Functional game on Oculus and Steam"
+                },
+                {
+                    "id": 2,
+                    "message": "Assemble unlimited number of designs"
+                },
+                {
+                    "id": 3,
+                    "message": "Share designs via Discord"
+                },
+                {
+                    "id": 4,
+                    "message": "Easily create and manage assemblies"
+                }
+            ],
+            "ongoing": false,
+            "finished": true,
+            "doingIcon": "bulb-outline",
+            "doneIcon": "checkmark",
+            "image": "images/jzh/roadmap/v0.1 gif.gif"
+        },
+        {
+            "date": "December 2023",
+            "h3": "v0.2.x File share expansion",
+            "h4": "v0.2.x File share expansion",
+            "p": null,
+            "li": [
+                {
+                    "id": 1,
+                    "message": "Environment world builder"
+                },
+                {
+                    "id": 2,
+                    "message": "Share designs with other users"
+                },
+                {
+                    "id": 3,
+                    "message": "Search for public designs"
+                },
+                {
+                    "id": 4,
+                    "message": "Steam and Oculus login support"
+                },
+                {
+                    "id": 5,
+                    "message": "Creative Commons License and EULA"
+                }
+            ],
+            "ongoing": false,
+            "finished": true,
+            "doingIcon": "analytics-outline",
+            "doneIcon": "checkmark",
+            "image": "images/jzh/roadmap/v0.2 gif.gif"
+        },
+        {
+            "date": "(In Progress)",
+            "h3": "v0.3.x Physics enhancements",
+            "h4": "v0.3.x Physics enhancements",
+            "p": null,
+            "li": [
+                {
+                    "id": 3,
+                    "message": "Motors, pistons, and remote controller"
+                },
+                {
+                    "id": 2,
+                    "message": "Drivable car elements"
+                },
+                {
+                    "id": 1,
+                    "message": "Assembly table"
+                },
+                {
+                    "id": 4,
+                    "message": "Improved physics interactions"
+                },
+                {
+                    "id": 6,
+                    "message": "Part presets"
+                }
+            ],
+            "ongoing": true,
+            "finished": false,
+            "doingIcon": "build-outline",
+            "doneIcon": "checkmark",
+            "image": "images/jzh/roadmap/v0.3 gif.gif"
+        },
+        {
+            "date": "",
+            "h3": "v0.4.x Multiplayer update",
+            "h4": "v0.4.x Multiplayer update",
+            "p": null,
+            "li": [
+                {
+                    "id": 1,
+                    "message": "Host your room"
+                },
+                {
+                    "id": 2,
+                    "message": "Join other hosted rooms"
+                },
+                {
+                    "id": 4,
+                    "message": "Realtime chatting"
+                },
+                {
+                    "id": 5,
+                    "message": "Trophy display cases"
+                },
+                {
+                    "id": 6,
+                    "message": "Hall of fame"
+                }
+            ],
+            "ongoing": false,
+            "finished": false,
+            "doingIcon": "people-circle-outline",
+            "doneIcon": "checkmark",
+            "image": "images/jzh/roadmap/v0.4 gif.gif"
+        },
+        {
+            "date": "",
+            "h3": "v0.5.x Touch-ups",
+            "h4": "v0.5.x Touch-ups",
+            "p": null,
+            "li": [
+                {
+                    "id": 1,
+                    "message": "Interactive tutorial"
+                },
+                {
+                    "id": 4,
+                    "message": "Pull apart assemblies"
+                },
+                {
+                    "id": 5,
+                    "message": "Part edit tool"
+                },
+                {
+                    "id": 7,
+                    "message": "Cosmetics"
+                },
+                {
+                    "id": 2,
+                    "message": "Color pass through"
+                }
+            ],
+            "ongoing": false,
+            "finished": false,
+            "doingIcon": "hammer-outline",
+            "doneIcon": "checkmark",
+            "image": "images/jzh/roadmap/v0.5 gif.gif"
+        },
+        {
+            "date": "",
+            "h3": "v1.0 The official game",
+            "h4": "v1.0 The official game",
+            "p": null,
+            "li": [
+                {
+                    "id": 1,
+                    "message": "Easily create and manage assemblies"
+                },
+                {
+                    "id": 7,
+                    "message": "Share your designs instantly"
+                },
+                {
+                    "id": 8,
+                    "message": "Play with up to 5 friends in a room"
+                },
+                {
+                    "id": 9,
+                    "message": "Physics playground"
+                },
+                {
+                    "id": 10,
+                    "message": "Buildable avatars"
+                }
+            ],
+            "ongoing": false,
+            "finished": false,
+            "doingIcon": "star-outline",
+            "doneIcon": "checkmark",
+            "image": "images/jzh/roadmap/v1.0 gif.gif"
+        },
+        {
+            "date": "",
+            "h3": "v2.0 Onward",
+            "h4": "v2.0 Onward",
+            "p": null,
+            "li": [
+                {
+                    "id": 1,
+                    "message": "New environments"
+                },
+                {
+                    "id": 7,
+                    "message": "New ways to play with each other"
+                },
+                {
+                    "id": 8,
+                    "message": "Robotics and programming competitions"
+                }
+            ],
+            "ongoing": false,
+            "finished": false,
+            "doingIcon": "egg",
+            "doneIcon": "checkmark",
+            "image": null
+        }
+    ]
+}
