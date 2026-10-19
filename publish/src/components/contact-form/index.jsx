@@ -25,6 +25,10 @@ const ContactForm = () => {
         }
     };
     const onSubmit = (data, e) => {
+        if (!data['contactMessage'].includes(' ')) {
+            handleServerResponse(false, "Bad form submission", form);
+            return;
+        }
         const form = e.target;
         setServerState({ submitting: true });
         fetch("/api/contact",{
