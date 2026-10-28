@@ -141,7 +141,7 @@ AuthorIntroArea.propTypes = {
     }),
 };
 AuthorIntroArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 
 export default AuthorIntroArea;

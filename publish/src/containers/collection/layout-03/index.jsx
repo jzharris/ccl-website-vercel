@@ -79,7 +79,7 @@ CollectionArea.propTypes = {
     }),
 };
 CollectionArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 
 export default CollectionArea;

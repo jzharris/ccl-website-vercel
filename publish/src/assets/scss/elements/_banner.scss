@@ -1,3 +1,40 @@
+.site-video-background {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+    pointer-events: none;
+    background: #050816;
+
+    .site-video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.72) saturate(1.1);
+    }
+
+    .site-video-overlay {
+        position: absolute;
+        inset: 0;
+        background: rgba(5, 8, 22, 0.55);
+    }
+}
+
+#main-content,
+header,
+footer,
+.rn-header,
+.rn-footer {
+    position: relative;
+    z-index: 1;
+}
+
+.vanta-canvas {
+    display: none !important;
+}
+
 /*-------------------------
  Banner Styles  
 ----------------------------*/

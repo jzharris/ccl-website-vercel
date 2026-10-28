@@ -1,0 +1,167 @@
+Private Data We Receive And Collect
+ASMBL also automatically collects and receives certain information from your computer, mobile device, or VR headset, including the activities you perform within the ASMBL VR game, on our Website, the Platforms, and the Applications, the type of hardware and software you are using (for example, your VR headset model, operating system, or browser), and information obtained from cookies. For example, each time you play ASMBL VR or visit the Website, we automatically collect your IP address, VR headset and device type, access times, gameplay sessions and telemetry data, and the web page(s) you access (as applicable).
+
+When you first register for a ASMBL account, and when you use the Services, we collect some personal information about you such as:
+
+The geographic area where you use your computer, mobile devices, or VR headset
+VR headset motion and positional tracking data (including head orientation, controller positions, and hand tracking) for game functionality and comfort/safety features
+Play area boundaries and room-scale movement data to ensure safe gameplay within your physical environment
+Your username and email address if you decide to link it
+Your Steam account user ID and username, if you decide to link it
+Your Ocuulus account user ID and username, if you decide to link it
+A unique ASMBL user ID (an alphanumeric string) which is assigned to you upon registration
+Other optional information as part of your account profile
+Your IP Address and, when applicable, timestamp related to your consent and confirmation of consent
+Other information submitted by you or your organizational representatives via various methods
+Your billing address and any necessary other information to complete any financial transaction, and when making purchases through the Services, we may also collect your credit card or PayPal information
+User generated content (such as in-game creations, messages, posts, comments, pages, profiles, images, feeds or communications exchanged on the Supported Platforms)
+Other files that you may publish via our Services
+Information (such as messages, posts, comments, pages, profiles, images) we may receive relating to communications you send us, such as queries or comments concerning
+How We Use ASMBL VR Game Data
+ASMBL VR uses players' and visitors' data for the following general purposes:
+
+To identify you when you login to your account
+To enable us to operate the Services and provide them to you
+To verify your transactions and for purchase confirmation, billing, security, and authentication (including security tokens for communication with installed)
+To analyze the Website or the other Services and information about our visitors and users, including research into our user demographics and user behaviour in order to improve our content and Services
+To contact you about your account and provide customer service support, including responding to your comments and questions
+To share aggregate (non-identifiable) statistics about users of the Services to prospective advertisers and partners
+To keep you informed about the Services, features, surveys, newsletters, offers, surveys, contests and events we think you may find useful or which you have requested from us
+To sell or market ASMBL VR products and services to you
+To better understand your needs and the needs of users in the aggregate, diagnose problems, analyze trends, improve the features and usability of the Services, and better understand and market to our customers and users
+To keep the Services safe and secure
+We also use non-identifiable information gathered for statistical purposes to keep track of the number of visits to the Services with a view to introducing improvements and improving usability of the Services. We may share this type of statistical data so that our partners also understand how often people use the Services, so that they, too, may provide you with an optimal experience.
+In-Game Content and Communications
+ASMBL VR is an immersive virtual reality game. When you play ASMBL VR, we process certain in-game content and communications to enable and enhance your gameplay experience. This includes gameplay data such as your progress, in-game designs, achievements, virtual items, scores, and interactions within the game world.
+
+ASMBL VR may include multiplayer features, voice chat, text chat, and other player-to-player communication tools. We process these communications as necessary to provide the service, ensure player safety, enforce our community guidelines, and improve the gaming experience. Voice and text chat data and in-game designs may be temporarily processed for moderation purposes and to investigate reports of harassment, cheating, or other policy violations.
+
+Consent Of Using ASMBL VR
+By using any of the Services, or submitting or collecting any Personal Information via the Services, you consent to the collection, transfer, storage disclosure, and use of your Personal Information in the manner set out in this Privacy Policy. If you do not consent to the use of your Personal Information in these ways, please stop using the Services.
+
+Data Controller Information
+ASMBL (operated by Carbon Copy Labs LLC) is the data controller responsible for the processing of your personal data collected through this website and ASMBL VR game. This means we determine the purposes and means of processing your personal information in accordance with the General Data Protection Regulation (GDPR) and applicable data protection laws.
+
+If you have any questions or concerns about how we handle your personal data, please contact us at:
+
+Data Protection Officer: zach@carboncopylabs.com
+For the purposes of the GDPR, we act as a Data Controller for personal data collected through the ASMBL VR game, our website, and related services.
+
+Legal Basis for Processing Under GDPR
+Under Article 6 of the GDPR, we process your personal data only when we have a valid legal ground. The legal bases we rely on are:
+
+Consent (Article 6(1)(a)): We process certain data — such as cookies, marketing communications preferences, and contact form submissions — based on your freely given, specific, informed, and unambiguous consent. You may withdraw your consent at any time without affecting the lawfulness of processing based on consent before its withdrawal.
+Contractual Necessity (Article 6(1)(b)): When you register for an account, purchase our services, or enter into a contractual relationship with us, we process your personal data to fulfill our contractual obligations to you.
+Legal Obligation (Article 6(1)(c)): We may process your personal data when we are required to do so by applicable law, such as tax and accounting record-keeping requirements, or to comply with a lawful request from a regulatory authority.
+Legitimate Interests (Article 6(1)(f)): We process certain data for our legitimate business interests, including analytics to improve our services, network and information security, fraud prevention, and direct marketing to existing customers. We balance these interests against your rights and freedoms and ensure they do not override your interests.
+Data Retention Periods
+In accordance with the storage limitation principle (Article 5(1)(e) of the GDPR), we retain your personal data only for as long as necessary to fulfill the purposes for which it was collected. Our retention periods are as follows:
+
+Account information: Retained for the duration of your active account plus 12 months after closure, unless a longer period is required by law.
+Transaction/billing data: Retained for 7 years to comply with tax and accounting obligations.
+Analytics and usage data: Retained in aggregated, anonymized form for up to 26 months. Individual IP addresses and device identifiers are retained for a maximum of 12 months.
+Cookie data: Retained according to the specific cookie durations set out in our Authentication tools (typically session duration to 24 months for analytics cookies).
+Customer support correspondence: Retained for 3 years from the date of last contact.
+Marketing communications preferences: Retained until you withdraw consent or unsubscribe.
+When data is no longer required, we securely delete or anonymize it in accordance with our data deletion and destruction procedures.
+
+Your Rights Under GDPR
+You have the following rights under the GDPR (Articles 15–22). We will respond to any request within 30 days, free of charge, unless the request is manifestly unfounded or excessive.
+
+Right of Access (Article 15): You have the right to obtain confirmation from us as to whether or not we are processing your personal data, and if so, to request a copy of that data along with information about the processing purposes, categories of data, recipients, retention periods, and your other rights.
+Right to Rectification (Article 16): You have the right to have inaccurate personal data corrected without undue delay. You may also complete any incomplete data by providing a supplementary statement.
+Right to Erasure (“Right to be Forgotten”) (Article 17): You have the right to request deletion of your personal data when it is no longer necessary for the purposes for which it was collected, when you withdraw consent, when you object to processing, or when the data has been unlawfully processed.
+Right to Restriction of Processing (Article 18): You have the right to restrict the processing of your personal data while we verify the accuracy of contested data, while we assess whether our legitimate grounds override your interests in the case of an objection, or when processing is unlawful but you choose restriction over erasure.
+Right to Data Portability (Article 20): You have the right to receive your personal data in a structured, commonly used, machine-readable format (such as a CSV or JSON file) and to transmit that data to another controller without hindrance, where processing is based on consent or contract and is carried out by automated means.
+Right to Object (Article 21): You have the right to object, on grounds relating to your particular situation, to processing of your personal data based on legitimate interests or for direct marketing purposes. We will cease processing unless we demonstrate compelling legitimate grounds that override your interests.
+Right to Object to Automated Decision-Making (Article 22): You have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning you or similarly significantly affects you. We do not currently engage in automated decision-making or profiling that produces legal effects.
+Right to Lodge a Complaint (Article 77): You have the right to lodge a complaint with your local supervisory authority if you believe our processing of your personal data infringes the GDPR. A list of EEA data protection authorities is available at edpb.europa.eu.
+To exercise any of these rights, please submit a request via the privacy request form below or contact us directly at zach@carboncopylabs.com. We may need to verify your identity before processing your request.
+
+Cookies and Similar Technologies
+In compliance with Article 6(1)(a) of the GDPR, we use cookies and similar tracking technologies only with your prior informed consent, except where cookies are strictly necessary for the functioning of the website.
+
+We use the following categories of cookies:
+
+Strictly Necessary Cookies: Required for the website and ASMBL VR game to function properly (e.g., session management, security tokens). These are exempt from consent requirements under applicable law.
+Functional Cookies: Enable enhanced functionality and personalization (e.g., remembering your preferences and language settings).
+Analytics Cookies: Help us understand how visitors interact with our website by collecting anonymous information about pages visited, time spent, and navigation patterns. We may use services such as Google Analytics with IP anonymization enabled.
+Marketing/Tracking Cookies: Used to deliver relevant advertisements and measure the effectiveness of our marketing campaigns.
+You may configure your browser to block or alert you about cookies. For detailed instructions, please visit allaboutcookies.org.
+
+Please note that disabling certain cookies may affect the functionality and performance of our website.
+
+Third-Party Data Processors
+We engage trusted third-party service providers to process your personal data on our behalf. These processors are contractually bound by Data Processing Agreements that comply with Article 28 of the GDPR and are prohibited from using your data for any purpose other than providing services to us. Our current sub-processors include:
+
+Cloud Infrastructure Providers: For hosting and storage of data.
+Analytics Services: For website usage analysis (e.g., Google Analytics with IP anonymization).
+Payment Processors: For transaction processing (we do not store full credit card details).
+Email Service Providers: For transactional and marketing communications.
+Customer Support Platforms: For managing support tickets and inquiries.
+We conduct due diligence on all sub-processors and maintain an up-to-date list of all engaged processors. A complete list of our sub-processors is available upon request by contacting zach@carboncopylabs.com.
+
+Data Security Measures
+We implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk, in accordance with Article 32 of the GDPR. These measures include:
+
+Encryption: Data transmitted between your browser and our servers is encrypted using TLS (Transport Layer Security) protocols. Data at rest is encrypted using industry-standard encryption algorithms.
+Access Controls: Strict role-based access controls ensure that only authorized personnel have access to personal data, and only to the extent necessary for their job functions.
+Regular Security Assessments: We conduct periodic vulnerability scans, penetration testing, and security audits of our systems and infrastructure.
+Employee Training: All employees receive mandatory data protection and privacy training, with regular updates on GDPR compliance obligations.
+Incident Response Plan: We maintain a documented breach notification procedure to detect, investigate, and report personal data breaches to the relevant supervisory authority within 72 hours as required by Article 33 of the GDPR, and to notify affected data subjects when required by Article 34.
+Pseudonymization and Minimization: Where possible, we pseudonymize or anonymize personal data and collect only the data necessary for the specified processing purpose.
+Requests From Public Authorities
+ASMBL (Carbon Copy Labs LLC) is committed to protecting the privacy and personal data of our users. We have established clear policies and processes for responding to requests from public authorities (including law enforcement, government agencies, and regulatory bodies) for access to user personal data.
+
+Our Process for Handling Public Authority Requests
+Legal Validity Review: All requests from public authorities are reviewed by our Data Protection Officer to verify their legal validity. We require that requests be properly issued under applicable law, such as a valid court order, warrant, or subpoena, and that they fall within the requesting authority’s lawful jurisdiction.
+Proportionality Assessment: We assess whether the scope of each request is proportionate and necessary in accordance with Article 52(1) of the EU Charter of Fundamental Rights and relevant case law. We will object to or challenge requests that are overbroad, vague, or not legally binding.
+Data Minimization: Where disclosure is legally required, we limit the data disclosed to the minimum necessary to comply with the specific request. We never provide blanket access to user databases or exceed the scope of what the legal instrument authorizes.
+User Notification: Except where explicitly prohibited by law (e.g., a non-disclosure order accompanying a warrant), we make reasonable efforts to notify affected users before disclosing their personal data. This notification includes the nature of the request, the authority making it, and the data disclosed. We maintain a template notification letter for this purpose.
+Legal Challenge: We reserve the right to challenge any request we believe is unlawful, overbroad, or inconsistent with GDPR principles. This includes seeking legal remedies such as filing motions to quash or engaging with supervisory authorities as appropriate.
+Documentation and Record-Keeping: In compliance with Article 5(2) (accountability principle) and Article 30 of the GDPR, we maintain a detailed record of all public authority requests, including the date, requesting authority, legal basis cited, data disclosed, and our response. These records are reviewed periodically by our DPO.
+Emergency Requests: In situations involving imminent risk of serious harm (e.g., threat to life, child safety, or terrorist activity), we may respond to urgent requests from law enforcement without a court order where legally permitted. We document all such emergency disclosures and follow up to obtain proper legal process retroactively.
+Legal Grounds for Disclosure
+We disclose personal data to public authorities only where we have a valid legal basis under Article 6 of the GDPR:
+
+Legal Obligation (Article 6(1)(c)): Where disclosure is necessary for compliance with a legal obligation to which we are subject under EU or Member State law. This includes compliance with a valid court order, warrant, or statutory demand.
+Legitimate Interests (Article 6(1)(f)): In exceptional circumstances where disclosure is necessary for the purposes of preventing or detecting crime, protecting public security, or preventing serious harm, and where such processing is not overridden by the data subject’s interests, rights, and freedoms.
+We do not rely on consent as a legal basis for disclosing data in response to public authority requests, as consent must be freely given and cannot be coerced in this context.
+
+Transparency Reporting
+We believe in transparency regarding government access to user data. Where permitted by law, we may publish periodic transparency reports summarizing:
+
+The number and type of requests received from public authorities.
+The number of requests we complied with, objected to, or challenged.
+The categories of data requested and disclosed.
+The number of requests accompanied by non-disclosure orders preventing user notification.
+Our goal is to provide meaningful transparency while respecting legal restrictions and the integrity of ongoing investigations.
+
+Contact for Law Enforcement and Public Authorities
+Law enforcement agencies and public authorities seeking access to user data should direct their requests to our Data Protection Officer. All requests must be submitted in writing on official letterhead with appropriate legal process attached:
+
+Data Protection Officer: zach@carboncopylabs.com
+Response Time: We aim to acknowledge receipt within 5 business days and respond substantively within 30 days, subject to the urgency and complexity of the request.
+We do not accept voluntary disclosures or informal requests. All requests must be supported by a valid legal basis as described above. We require that law enforcement requests be properly served through official channels and will verify the authenticity of all documents before processing.
+
+Changes to This Privacy Policy
+We reserve the right to update or modify this Privacy Policy at any time to reflect changes in our data processing practices, legal obligations, or regulatory guidance. When we make material changes, we will:
+
+Update the “Last Updated” date below.
+Display a prominent notice on our website for material changes.
+We encourage you to review this Privacy Policy periodically to stay informed about how we protect your personal data. Your continued use of our services after changes become effective constitutes your acknowledgement of the updated policy.
+
+Last Updated: May 7, 2026
+
+Contact Us / Data Protection Officer
+If you have any questions, concerns, or requests regarding this Privacy Policy, our data processing practices, or your rights under GDPR, please contact our Data Protection Officer (DPO):
+
+Data Protection Officer: zach@carboncopylabs.com
+We are committed to resolving any complaints regarding our handling of personal data. If you are unsatisfied with our response, you have the right to lodge a complaint with your local data protection supervisory authority as set out in the Your Rights Under GDPR section above.
+
+Inquire What Data We Have
+ASMBL VR uses tracking technology in the game and across our website, platforms, and applications, including device identifiers, VR headset motion data, and a unique ASMBL user ID to help us recognize you across different Services, to monitor usage and gameplay analytics, and to customize and improve your gaming experience.
+
+By visiting our website or using ASMBL VR Services you agree to the use of cookies in your browser. Cookies are small text files placed on your device when you visit a website. By using any of the Services, or submitting or collecting any Personal Information via the Services, you consent to the collection, transfer, storage disclosure, and use of your Personal Information
+
+Email zach@carboncopylabs.com to request information on your account or to delete your account data.

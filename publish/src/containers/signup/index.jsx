@@ -12,7 +12,7 @@ const SignupArea = ({ className, space }) => (
         )}
     >
         <div className="container">
-            <div className="row g-5">
+            <div className="row">
                 {/* <div className="offset-2 col-lg-4 col-md-6 ml_md--0 ml_sm--0 col-sm-12">
                     <SignupForm />
                 </div> */}
@@ -31,6 +31,6 @@ SignupArea.propTypes = {
 };
 
 SignupArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 export default SignupArea;

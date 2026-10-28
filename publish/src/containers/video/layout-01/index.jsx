@@ -62,7 +62,7 @@ VideoArea.propTypes = {
 };
 
 VideoArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 
 export default VideoArea;

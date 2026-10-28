@@ -76,7 +76,7 @@ UploadVariants.propTypes = {
 };
 
 UploadVariants.defaultProps = {
-    space: 1,
+    space: 0,
 };
 
 export default UploadVariants;

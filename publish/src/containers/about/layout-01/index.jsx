@@ -34,7 +34,7 @@ AboutArea.propTypes = {
 };
 
 AboutArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 
 export default AboutArea;

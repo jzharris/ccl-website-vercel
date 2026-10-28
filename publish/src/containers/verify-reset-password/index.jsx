@@ -91,6 +91,6 @@ VerifyArea.propTypes = {
 };
 
 VerifyArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 export default VerifyArea;

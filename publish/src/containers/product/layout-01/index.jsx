@@ -143,7 +143,7 @@ ProductArea.propTypes = {
 };
 
 ProductArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 
 export default ProductArea;

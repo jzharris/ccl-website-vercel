@@ -95,7 +95,7 @@ ExploreProductArea.propTypes = {
 };
 
 ExploreProductArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 
 export default ExploreProductArea;

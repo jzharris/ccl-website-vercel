@@ -124,7 +124,7 @@ SupportArea.propTypes = {
     space: PropTypes.oneOf([1, 2]),
 };
 SupportArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 
 export default SupportArea;

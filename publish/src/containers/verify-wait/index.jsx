@@ -25,6 +25,6 @@ VerifyWaitArea.propTypes = {
 };
 
 VerifyWaitArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 export default VerifyWaitArea;

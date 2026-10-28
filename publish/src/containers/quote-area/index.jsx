@@ -47,7 +47,7 @@ QuoteArea.propTypes = {
 };
 
 QuoteArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 
 export default QuoteArea;

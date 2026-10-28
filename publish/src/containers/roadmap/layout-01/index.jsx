@@ -96,7 +96,7 @@ RoadmapArea.propTypes = {
     showFuture: PropTypes.bool
 };
 RoadmapArea.defaultProps = {
-    space: 1,
+    space: 0,
     showH3: true,
     showH4: true,
     title: "",

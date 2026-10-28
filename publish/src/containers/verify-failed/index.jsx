@@ -25,6 +25,6 @@ VerifyFailedArea.propTypes = {
 };
 
 VerifyFailedArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 export default VerifyFailedArea;

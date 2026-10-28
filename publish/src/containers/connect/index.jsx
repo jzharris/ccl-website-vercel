@@ -169,7 +169,7 @@ ConnectArea.propTypes = {
     space: PropTypes.oneOf([1]),
 };
 ConnectArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 
 export default ConnectArea;

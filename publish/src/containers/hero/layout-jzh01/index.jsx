@@ -7,6 +7,7 @@ const HeroArea = ({ data }) => (
     <div className="slider-one rn-section-gapTop pb--20">
         <div className="container">
             <div className="row align-items-center">
+                <div style={{height:25}}></div>
                 <div className="row justify-content-center">
                     <div className="col-sm-12 col-lg-6">
                         {data?.images?.[0]?.src && (
@@ -29,27 +30,6 @@ const HeroArea = ({ data }) => (
                                 {data.buttons.map(
                                     ({ content, id, ...btn }, i) => (
                                         <div>
-                                            <div className="row g-5">
-                                                <div
-                                                    className="col-lg-12"
-                                                    data-sal="slide-up"
-                                                    data-sal-delay="150"
-                                                    data-sal-duration="800"
-                                                >
-                                                    <div className="section-title mb--30 text-center">
-                                                        {/* <h2 className="title">Community</h2> */}
-                                                        <p className="description">
-                                                            There are many
-                                                            variations of
-                                                            passages of Lorem
-                                                            Ipsum available,{" "}
-                                                            <br /> but the
-                                                            majority have
-                                                            suffered alteration.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <div className="row justify-content-center">
                                                 <Button
                                                     {...btn}

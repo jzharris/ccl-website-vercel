@@ -13,12 +13,12 @@ export async function getStaticProps() {
 
 const PrivacyPolicy = () => (
     <Wrapper>
-        <SEO pageTitle="Assemble Privacy Policy" />
+        <SEO pageTitle="ASMBL Privacy Policy" />
         <Header />
         <main id="main-content">
             <Breadcrumb
-                pageTitle="Assemble Privacy Policy"
-                currentPage="Assemble Privacy Policy"
+                pageTitle="ASMBL Privacy Policy"
+                currentPage="ASMBL Privacy Policy"
             />
             <PrivacyPolicyArea conditions={policyData?.content || []} />
         </main>

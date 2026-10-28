@@ -30,7 +30,7 @@ RelatedPostsArea.propTypes = {
 };
 
 RelatedPostsArea.defaultProps = {
-    space: 1,
+    space: 0,
     rootPage: "/blog",
 };
 

@@ -35,3 +35,5 @@ yarn-error.log*
 
 # custom
 # server/secrets/* 
+
+*.mp4

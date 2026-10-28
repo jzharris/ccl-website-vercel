@@ -12,18 +12,6 @@
             "icon": "tiktok",
             "link": "https://www.tiktok.com/@carboncopyzach?_t=8f5WH6oclnX&_r=1",
             "title": "TikTok"
-        },
-        {
-            "id": 2,
-            "icon": "twitter",
-            "link": "https://twitter.com/CarbonCopyZach",
-            "title": "Twitter"
-        },
-        {
-            "id": 4,
-            "icon": "linkedin",
-            "link": "https://www.linkedin.com/company/96639150/admin/feed/posts/",
-            "title": "LinkedIn"
         }
     ]
 }

@@ -45,7 +45,7 @@ TermsAndConditionsArea.propTypes = {
     space: PropTypes.oneOf([1]),
 };
 TermsAndConditionsArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 
 export default TermsAndConditionsArea;

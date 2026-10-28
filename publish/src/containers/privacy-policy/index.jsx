@@ -13,28 +13,25 @@ const PrivacyPolicyArea = ({ className, space, conditions }) => (
             <div className="row mb_dec--50">
                 <div className="offset-lg-2 col-lg-8 ">
                     <div className="privacy-wrapper">
-                        <h1>Assemble Game and Website Privacy Policy</h1>
+                        <h1>ASMBL Game and Website Privacy Policy</h1>
                         {conditions?.map((condition) => (
-                            <>
+                            <section key={condition.title} style={{paddingBottom:10}}>
                                 <h2>{condition?.title}</h2>
-                                {condition?.descriptions.map((description) => (
-                                    <p>{description}</p>
+                                {condition?.descriptions?.map((description) => (
+                                    <p key={description}>{description}</p>
                                 ))}
-                            </>
+                                {condition?.bullets?.length > 0 && (
+                                    <ul>
+                                        {condition.bullets.map((bullet) => (
+                                            <li key={bullet}>{bullet}</li>
+                                        ))}
+                                    </ul>
+                                )}
+                            </section>
                         ))}
                     </div>
                 </div>
             </div>
-            {/* <div className="row mt--50">
-                <div className="offset-lg-2 col-lg-8">
-                    <Button path="#" size="medium" className="mr--15 ml--25">
-                        Accept
-                    </Button>
-                    <Button path="#" color="primary-alta" size="medium">
-                        Decline
-                    </Button>
-                </div>
-            </div> */}
         </div>
     </div>
 );
@@ -46,11 +43,12 @@ PrivacyPolicyArea.propTypes = {
         PropTypes.shape({
             title: PropTypes.string,
             descriptions: PropTypes.arrayOf(PropTypes.string),
+            bullets: PropTypes.arrayOf(PropTypes.string),
         })
     ),
 };
 PrivacyPolicyArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 
 export default PrivacyPolicyArea;

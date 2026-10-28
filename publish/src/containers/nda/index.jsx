@@ -50,7 +50,7 @@ NDAArea.propTypes = {
     ),
 };
 NDAArea.defaultProps = {
-    space: 1,
+    space: 0,
 };
 
 export default NDAArea;
