@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
+import { useEffect, useRef } from "react";
 import {
     VerticalTimeline,
     VerticalTimelineElement,
@@ -20,6 +21,9 @@ const RoadmapArea = ({
     title,
     showFuture,
 }) => {
+    const horizontalScrollRef = useRef(null);
+    const horizontalOngoingRef = useRef(null);
+    const verticalOngoingRef = useRef(null);
     const roadmapItems = [
         ...(items || []),
         ...(showFuture
@@ -33,6 +37,54 @@ const RoadmapArea = ({
               ]
             : []),
     ];
+
+    useEffect(() => {
+        const landscapeQuery = window.matchMedia(
+            "(orientation: landscape) and (min-width: 768px)"
+        );
+        let frameId;
+
+        const scrollToOngoing = () => {
+            window.cancelAnimationFrame(frameId);
+            frameId = window.requestAnimationFrame(() => {
+                frameId = window.requestAnimationFrame(() => {
+                    if (landscapeQuery.matches) {
+                        const container = horizontalScrollRef.current;
+                        const target = horizontalOngoingRef.current;
+                        if (!container || !target) return;
+
+                        container.scrollTo({
+                            left:
+                                target.offsetLeft -
+                                (container.clientWidth - target.clientWidth) /
+                                    2,
+                            behavior: "smooth",
+                        });
+                        return;
+                    }
+
+                    const target = verticalOngoingRef.current;
+                    if (!target) return;
+
+                    const targetTop =
+                        window.scrollY +
+                        target.getBoundingClientRect().top -
+                        window.innerHeight / 2 +
+                        200;
+                    window.scrollTo({ top: targetTop, behavior: "smooth" });
+                });
+            });
+        };
+
+        scrollToOngoing();
+        landscapeQuery.addEventListener("change", scrollToOngoing);
+
+        return () => {
+            window.cancelAnimationFrame(frameId);
+            landscapeQuery.removeEventListener("change", scrollToOngoing);
+        };
+    }, [items, showFuture]);
+
     const renderItemContent = (item) => (
         <>
             {item.image && (
@@ -86,6 +138,7 @@ const RoadmapArea = ({
                     role="region"
                     aria-label="Roadmap milestones"
                     style={{paddingTop:0}}
+                    ref={horizontalScrollRef}
                 >
                     <ol className="roadmap-horizontal">
                         {roadmapItems.map((item, index) => {
@@ -100,6 +153,11 @@ const RoadmapArea = ({
                                 <li
                                     className="roadmap-horizontal-item"
                                     key={item.h3 || item.date || index}
+                                    ref={
+                                        item.ongoing
+                                            ? horizontalOngoingRef
+                                            : null
+                                    }
                                     style={{ "--roadmap-status": statusColor }}
                                 >
                                     <div className="roadmap-horizontal-date">
@@ -162,6 +220,13 @@ const RoadmapArea = ({
                                     }
                                     key={item.h3 || item.date || index}
                                 >
+                                    {item.ongoing && (
+                                        <span
+                                            className="roadmap-scroll-anchor"
+                                            ref={verticalOngoingRef}
+                                            aria-hidden="true"
+                                        />
+                                    )}
                                     {renderItemContent(item)}
                                 </VerticalTimelineElement>
                             );
