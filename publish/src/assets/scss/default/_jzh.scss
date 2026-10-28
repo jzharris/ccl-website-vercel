@@ -140,3 +140,22 @@
         display: none;
     }
 }
+
+@media (orientation: portrait) {
+    .roadmap-vertical .vertical-timeline {
+        padding: 1em 0;
+    }
+
+    .roadmap-vertical .vertical-timeline-element {
+        margin: 1em 0;
+    }
+
+    .roadmap-vertical .vertical-timeline-element-content {
+        padding: 0.75em;
+
+        img {
+            max-height: 120px;
+            object-fit: contain;
+        }
+    }
+}
