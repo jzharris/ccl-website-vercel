@@ -2,8 +2,29 @@
     "content": [
         {
             "date": "October 2023",
-            "h3": "v0.1.x Laying the foundation",
-            "h4": "v0.1.x Laying the foundation",
+            "h3": "The Beginning",
+            "h4": "The Beginning",
+            "p": null,
+            "li": [
+                {
+                    "id": 1,
+                    "message": "The start of our journey"
+                },
+                {
+                    "id": 2,
+                    "message": "Demonstrated proof of concept"
+                }
+            ],
+            "ongoing": false,
+            "finished": true,
+            "doingIcon": "egg-outline",
+            "doneIcon": "egg",
+            "image": "images/jzh/roadmap/v0.1 gif.gif"
+        },
+        {
+            "date": "October 2026",
+            "h3": "Free Demo",
+            "h4": "Free Demo",
             "p": null,
             "li": [
                 {
@@ -12,11 +33,11 @@
                 },
                 {
                     "id": 2,
-                    "message": "ASMBL unlimited number of designs"
+                    "message": "Build limited number of designs"
                 },
                 {
                     "id": 3,
-                    "message": "Share designs via Discord"
+                    "message": "Share designs via Marketplace"
                 },
                 {
                     "id": 4,
@@ -25,179 +46,43 @@
             ],
             "ongoing": false,
             "finished": true,
-            "doingIcon": "bulb-outline",
-            "doneIcon": "checkmark",
+            "doingIcon": "puzzle",
+            "doneIcon": "puzzle",
             "image": "images/jzh/roadmap/v0.1 gif.gif"
         },
         {
-            "date": "December 2023",
-            "h3": "v0.2.x File share expansion",
-            "h4": "v0.2.x File share expansion",
+            "date": "December 2026",
+            "h3": "Early Access",
+            "h4": "Early Access",
             "p": null,
             "li": [
                 {
                     "id": 1,
-                    "message": "Environment world builder"
+                    "message": "Casual crossplatform multiplayer"
                 },
                 {
                     "id": 2,
-                    "message": "Share designs with other users"
+                    "message": "Unlimited design files and avatars"
                 },
                 {
                     "id": 3,
-                    "message": "Search for public designs"
+                    "message": "Cross platform for Steam"
                 },
                 {
                     "id": 4,
-                    "message": "Steam and Oculus login support"
-                },
-                {
-                    "id": 5,
-                    "message": "Creative Commons License and EULA"
-                }
-            ],
-            "ongoing": false,
-            "finished": true,
-            "doingIcon": "analytics-outline",
-            "doneIcon": "checkmark",
-            "image": "images/jzh/roadmap/v0.2 gif.gif"
-        },
-        {
-            "date": "(In Progress)",
-            "h3": "v0.3.x Physics enhancements",
-            "h4": "v0.3.x Physics enhancements",
-            "p": null,
-            "li": [
-                {
-                    "id": 3,
-                    "message": "Motors, pistons, and remote controller"
-                },
-                {
-                    "id": 2,
-                    "message": "Drivable car elements"
-                },
-                {
-                    "id": 1,
-                    "message": "Assembly table"
-                },
-                {
-                    "id": 4,
-                    "message": "Improved physics interactions"
-                },
-                {
-                    "id": 6,
-                    "message": "Part presets"
+                    "message": "Builder tutorial system"
                 }
             ],
             "ongoing": true,
             "finished": false,
-            "doingIcon": "build-outline",
-            "doneIcon": "checkmark",
-            "image": "images/jzh/roadmap/v0.3 gif.gif"
+            "doingIcon": "bulb-outline",
+            "doneIcon": "bulb-outline",
+            "image": "images/jzh/roadmap/v0.1 gif.gif"
         },
         {
             "date": "",
-            "h3": "v0.4.x Multiplayer update",
-            "h4": "v0.4.x Multiplayer update",
-            "p": null,
-            "li": [
-                {
-                    "id": 1,
-                    "message": "Host your room"
-                },
-                {
-                    "id": 2,
-                    "message": "Join other hosted rooms"
-                },
-                {
-                    "id": 4,
-                    "message": "Realtime chatting"
-                },
-                {
-                    "id": 5,
-                    "message": "Trophy display cases"
-                },
-                {
-                    "id": 6,
-                    "message": "Hall of fame"
-                }
-            ],
-            "ongoing": false,
-            "finished": false,
-            "doingIcon": "people-circle-outline",
-            "doneIcon": "checkmark",
-            "image": "images/jzh/roadmap/v0.4 gif.gif"
-        },
-        {
-            "date": "",
-            "h3": "v0.5.x Touch-ups",
-            "h4": "v0.5.x Touch-ups",
-            "p": null,
-            "li": [
-                {
-                    "id": 1,
-                    "message": "Interactive tutorial"
-                },
-                {
-                    "id": 4,
-                    "message": "Pull apart assemblies"
-                },
-                {
-                    "id": 5,
-                    "message": "Part edit tool"
-                },
-                {
-                    "id": 7,
-                    "message": "Cosmetics"
-                },
-                {
-                    "id": 2,
-                    "message": "Color pass through"
-                }
-            ],
-            "ongoing": false,
-            "finished": false,
-            "doingIcon": "hammer-outline",
-            "doneIcon": "checkmark",
-            "image": "images/jzh/roadmap/v0.5 gif.gif"
-        },
-        {
-            "date": "",
-            "h3": "v1.0 The official game",
-            "h4": "v1.0 The official game",
-            "p": null,
-            "li": [
-                {
-                    "id": 1,
-                    "message": "Easily create and manage assemblies"
-                },
-                {
-                    "id": 7,
-                    "message": "Share your designs instantly"
-                },
-                {
-                    "id": 8,
-                    "message": "Play with up to 5 friends in a room"
-                },
-                {
-                    "id": 9,
-                    "message": "Physics playground"
-                },
-                {
-                    "id": 10,
-                    "message": "Buildable avatars"
-                }
-            ],
-            "ongoing": false,
-            "finished": false,
-            "doingIcon": "star-outline",
-            "doneIcon": "checkmark",
-            "image": "images/jzh/roadmap/v1.0 gif.gif"
-        },
-        {
-            "date": "",
-            "h3": "v2.0 Onward",
-            "h4": "v2.0 Onward",
+            "h3": "Space and Water Updates",
+            "h4": "Space and Water Updates",
             "p": null,
             "li": [
                 {
@@ -205,19 +90,69 @@
                     "message": "New environments"
                 },
                 {
-                    "id": 7,
-                    "message": "New ways to play with each other"
+                    "id": 2,
+                    "message": "Outer space and Space Station"
                 },
                 {
-                    "id": 8,
-                    "message": "Robotics and programming competitions"
+                    "id": 3,
+                    "message": "Water simulation"
                 }
             ],
             "ongoing": false,
             "finished": false,
-            "doingIcon": "egg",
-            "doneIcon": "checkmark",
-            "image": null
+            "doingIcon": "planet",
+            "doneIcon": "planet",
+            "image": "images/jzh/roadmap/v0.1 gif.gif"
+        },
+        {
+            "date": "",
+            "h3": "Heated PvP Matches",
+            "h4": "Heated PvP Matches",
+            "p": null,
+            "li": [
+                {
+                    "id": 1,
+                    "message": "Realtime races"
+                },
+                {
+                    "id": 2,
+                    "message": "Dogfights"
+                },
+                {
+                    "id": 3,
+                    "message": "Mech brawls"
+                }
+            ],
+            "ongoing": false,
+            "finished": false,
+            "doingIcon": "ribbon",
+            "doneIcon": "ribbon",
+            "image": "images/jzh/roadmap/v0.1 gif.gif"
+        },
+        {
+            "date": "",
+            "h3": "Vehicle and Programmer Improvements",
+            "h4": "Vehicle and Programmer Improvements",
+            "p": null,
+            "li": [
+                {
+                    "id": 1,
+                    "message": "New devices and sensors"
+                },
+                {
+                    "id": 2,
+                    "message": "New animations and input recording"
+                },
+                {
+                    "id": 3,
+                    "message": "New logic system"
+                }
+            ],
+            "ongoing": false,
+            "finished": false,
+            "doingIcon": "construct",
+            "doneIcon": "construct",
+            "image": "images/jzh/roadmap/v0.1 gif.gif"
         }
     ]
 }
