@@ -14,9 +14,21 @@
             "items": [
                 {
                     "id": 1,
+                    "title": "View Roadmap",
+                    "path": "/roadmap",
+                    "subtitle": "PLAN",
+                    "description": "See how we plan to make ASMBL a reality.",
+                    "images": [
+                        {
+                            "src": "/images/jzh/icons/roadmap-icon.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
                     "title": "Play the Demo on Meta",
                     "path": "https://www.meta.com/experiences/asmbl-demo/1766416094474321",
-                    "subtitle": "DEMO",
+                    "subtitle": "PLAY",
                     "description": "Support the creators and get the latest news and updates.",
                     "images": [
                         {
@@ -28,7 +40,7 @@
                     "id": 1,
                     "title": "Play the Demo on Steam",
                     "path": "https://store.steampowered.com/app/2582250/Assemble/",
-                    "subtitle": "DEMO",
+                    "subtitle": "PLAY",
                     "description": "Support the creators and get the latest news and updates.",
                     "images": [
                         {
@@ -40,7 +52,7 @@
                     "id": 3,
                     "title": "Join Our Discord",
                     "path": "https://discord.gg/P3pN5WvJek",
-                    "subtitle": "OUR COMMUNITY",
+                    "subtitle": "JOIN",
                     "description": "Share designs, schedule meetups, and become a beta tester.",
                     "images": [
                         {
