@@ -43,7 +43,7 @@ const RoadmapArea = ({
                     link={null}
                 />
             )}
-            {showH3 && item.h3 && <h3 style={{paddingTop:20}}>{item.h3}</h3>}
+            {showH3 && item.h3 && <h3>{item.h3}</h3>}
             {showH4 && item.h4 && <h4>{item.h4}</h4>}
             {item.p && <p>{item.p}</p>}
             {item.li?.length > 0 && (
@@ -110,7 +110,14 @@ const RoadmapArea = ({
                                             ? icons[item.doneIcon]
                                             : icons[item.doingIcon]}
                                     </div>
-                                    <article className="roadmap-horizontal-card">
+                                    <article
+                                        className="roadmap-horizontal-card"
+                                        style={{
+                                            background: statusColor,
+                                            borderTopColor: statusColor,
+                                            color: "#fff",
+                                        }}
+                                    >
                                         {renderItemContent(item)}
                                     </article>
                                 </li>
