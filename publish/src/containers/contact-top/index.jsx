@@ -19,8 +19,8 @@ const ContactTopArea = ({ space, className }) => (
                     data-sal-duration="800"
                 >
                     <div className="section-title mb--30 text-center">
-                        <h2 className="title">Contact Us</h2>
-                        <p className="description">
+                        {/* <h2 className="title">Contact Us</h2> */}
+                        <p className="description" style={{paddingTop: 10}}>
                             Have a question or want to get in touch? <br />
                             Use the form below to contact us!
                         </p>

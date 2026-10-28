@@ -11,7 +11,7 @@ const ForgotPasswordArea = ({ className, space }) => (
         )}
     >
         <div className="container">
-            <div className="row g-5">
+            <div className="row g-5" style={{padding:20}}>
                 <ForgotPasswordForm />
             </div>
         </div>
