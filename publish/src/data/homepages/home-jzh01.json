@@ -16,7 +16,7 @@
                     "id": 1,
                     "title": "Play the Demo on Meta",
                     "path": "https://www.meta.com/experiences/asmbl-demo/1766416094474321",
-                    "subtitle": "Step 1",
+                    "subtitle": "DEMO",
                     "description": "Support the creators and get the latest news and updates.",
                     "images": [
                         {
@@ -28,7 +28,7 @@
                     "id": 1,
                     "title": "Play the Demo on Steam",
                     "path": "https://store.steampowered.com/app/2582250/Assemble/",
-                    "subtitle": "Step 1",
+                    "subtitle": "DEMO",
                     "description": "Support the creators and get the latest news and updates.",
                     "images": [
                         {
@@ -40,7 +40,7 @@
                     "id": 3,
                     "title": "Join Our Discord",
                     "path": "https://discord.gg/P3pN5WvJek",
-                    "subtitle": "Step 2",
+                    "subtitle": "OUR COMMUNITY",
                     "description": "Share designs, schedule meetups, and become a beta tester.",
                     "images": [
                         {
