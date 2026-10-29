@@ -6,6 +6,10 @@ import Footer from "@layout/footer/footer-01";
 import { FaDiscord, FaRedditAlien, FaTiktok, FaYoutube } from "react-icons/fa";
 import styles from "./asmbl-landing.module.scss";
 
+import ServiceArea from "@containers/services/layout-jzh01";
+import homepageData from "../data/homepages/home-jzh01.json";
+import { normalizedData } from "@utils/methods";
+
 const highlights = [
     {
         title: "BUILD",
@@ -117,7 +121,9 @@ export async function getStaticProps() {
     return { props: { className: "template-color-1" } };
 }
 
-const AsmblLanding = () => (
+const AsmblLanding = () => {
+    const content = normalizedData(homepageData?.content || []);
+    return (
     <Wrapper>
         <SEO pageTitle="ASMBL" />
         <Header />
@@ -240,35 +246,17 @@ const AsmblLanding = () => (
                 <div className={styles.communityContent}>
                     <p className={styles.eyebrow}>YOUR NEXT BUILD AWAITS</p>
                     <h2>
-                        JOIN
-                        <br />
-                        THE
-                        <br />
+                        JOIN 
+                        THE 
                         COMMUNITY
                     </h2>
-                    <div className={styles.storeLinks}>
-                        <a
-                            className={styles.button}
-                            href="https://www.meta.com/experiences/asmbl/26284859231120884/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            WISHLIST OCULUS
-                        </a>
-                        <a
-                            className={styles.button}
-                            href="https://store.steampowered.com/app/2582250/ASMBL/?beta=1"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            WISHLIST STEAM
-                        </a>
-                    </div>
+                    <ServiceArea data={content["service-section"]} />
                 </div>
             </section>
         </main>
         <Footer />
     </Wrapper>
-);
+    );
+}
 
 export default AsmblLanding;
