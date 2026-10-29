@@ -221,9 +221,7 @@ const AsmblLanding = () => {
                 <div className={styles.communityContent}>
                     <p className={styles.eyebrow}>YOUR NEXT BUILD AWAITS</p>
                     <h2>
-                        JOIN 
-                        THE 
-                        COMMUNITY
+                        GET STARTED
                     </h2>
                     <ServiceArea data={content["service-section"]} />
                 </div>
