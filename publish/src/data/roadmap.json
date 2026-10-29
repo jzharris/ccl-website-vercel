@@ -77,7 +77,7 @@
             "finished": false,
             "doingIcon": "bulb-outline",
             "doneIcon": "bulb-outline",
-            "image": "images/jzh/roadmap/Early Access.gif"
+            "image": "images/jzh/examples/Flying.gif"
         },
         {
             "date": "",
@@ -152,7 +152,7 @@
             "finished": false,
             "doingIcon": "construct",
             "doneIcon": "construct",
-            "image": "images/jzh/roadmap/driving.gif"
+            "image": "images/jzh/examples/Racing.gif"
         }
     ]
 }
