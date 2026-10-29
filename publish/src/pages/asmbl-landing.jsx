@@ -52,8 +52,8 @@ const gameFeatures = [
     },
     {
         id: "mech",
-        title: "TAKE THE FIGHT INTO YOUR OWN HANDS.",
-        image: "/images/jzh/roadmap/BATTLE.webp",
+        title: "ONLY THE CLEVER SURVIVE.",
+        image: "/images/jzh/roadmap/scsh4.png",
         imageAlt: "ASMBL mech battle artwork",
         emphasis: "Engineering skill decides victory.",
     },
@@ -65,24 +65,24 @@ const gameplayImages = [
         alt: "ASMBL gameplay demo",
     },
     {
-        src: "/images/jzh/roadmap/driving.gif",
-        alt: "Driving a custom-built ASMBL vehicle",
+        src: "/images/jzh/examples/Racing.gif",
+        alt: "Driving a custom-built ASMBL car",
     },
     {
-        src: "/images/jzh/roadmap/Early%20Access.gif",
-        alt: "ASMBL early access gameplay",
+        src: "/images/jzh/examples/Flying.gif",
+        alt: "ASMBL flying gameplay",
     },
     {
-        src: "/images/jzh/roadmap/v0.1%20gif.gif",
-        alt: "ASMBL building gameplay",
+        src: "/images/jzh/examples/Crane.gif",
+        alt: "ASMBL crane game",
     },
     {
-        src: "/images/jzh/roadmap/v0.3%20gif.gif",
-        alt: "ASMBL multiplayer gameplay",
+        src: "/images/jzh/examples/Plane.gif",
+        alt: "ASMBL flying plane",
     },
     {
-        src: "/images/jzh/roadmap/v1.0%20gif.gif",
-        alt: "ASMBL gameplay showcase",
+        src: "/images/jzh/roadmap/v0.5%20gif.gif",
+        alt: "Joint showcase",
     },
 ];
 

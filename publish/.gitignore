@@ -37,3 +37,4 @@ yarn-error.log*
 # server/secrets/* 
 
 *.mp4
+*.DS_Store
