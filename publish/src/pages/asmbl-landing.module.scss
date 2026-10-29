@@ -44,6 +44,18 @@
     }
 }
 
+.scene2 {
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 78vh;
+    padding: 120px 24px 80px;
+    position: relative;
+}
+
 .hero {
     background-image: none;
     min-height: 100vh;
@@ -264,7 +276,9 @@
 
 .emphasis {
     color: #ffad68 !important;
-    font-weight: 700;
+    font-size: clamp(1.75rem, 3.5vw, 3rem) !important;
+    font-weight: 800;
+    line-height: 1.2 !important;
 }
 
 .gallery {

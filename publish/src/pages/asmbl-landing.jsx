@@ -31,20 +31,16 @@ const highlights = [
 const gameFeatures = [
     {
         id: "ground",
-        title: "BUILD IT. DRIVE IT. DOMINATE THE GROUND.",
+        title: "DOMINATE THE GROUND.",
         image: "/images/jzh/roadmap/rob.webp",
         imageAlt: "ASMBL land vehicle artwork",
-        description:
-            "From high-speed racers to durable tanks, design land vehicles with wheels, pistons, servos, and raw mechanical creativity. Take them head-to-head against your friends in physics-driven challenges.",
         emphasis: "If it rolls, crawls, drills, or explodes… it's fair game.",
     },
     {
         id: "air",
-        title: "TAKE YOUR IMAGINATION TO THE SKIES.",
+        title: "TAKE TO THE SKIES.",
         image: "/images/jzh/roadmap/porky.webp",
         imageAlt: "ASMBL aircraft artwork",
-        description:
-            "Engineer soaring gliders, agile jets, or ridiculous flying machines. Fine-tune wings, gyroscopes, rockets, and control systems, then prove your design mastery in multiplayer aerial showdowns.",
         emphasis: "The sky isn't the limit. It's your testing ground.",
     },
     {
@@ -52,8 +48,6 @@ const gameFeatures = [
         title: "ACHIEVE ESCAPE VELOCITY.",
         image: "/images/jzh/roadmap/spacefox.webp",
         imageAlt: "ASMBL space vehicle artwork",
-        description:
-            "Master thrust, balance, and control in zero-G. Build sleek starships or absurd space contraptions and take your creations beyond the atmosphere.",
         emphasis: "Space belongs to the bold.",
     },
     {
@@ -61,8 +55,6 @@ const gameFeatures = [
         title: "TAKE THE FIGHT INTO YOUR OWN HANDS.",
         image: "/images/jzh/roadmap/BATTLE.webp",
         imageAlt: "ASMBL mech battle artwork",
-        description:
-            "Construct towering mechanical warriors and outfit every joint, weapon, and armor plate yourself. Step inside your creation and battle your friends.",
         emphasis: "Engineering skill decides victory.",
     },
 ];
@@ -187,7 +179,6 @@ const AsmblLanding = () => {
                         </div>
                         <div className={styles.copyPanel}>
                             <h2>{feature.title}</h2>
-                            <p>{feature.description}</p>
                             <p className={styles.emphasis}>
                                 {feature.emphasis}
                             </p>
@@ -224,7 +215,7 @@ const AsmblLanding = () => {
             </section>
 
             <section
-                className={`${styles.scene} ${styles.community}`}
+                className={`${styles.scene2}`}
                 id="community"
             >
                 <div className={styles.communityContent}>
