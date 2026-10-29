@@ -48,7 +48,7 @@
             "finished": true,
             "doingIcon": "puzzle",
             "doneIcon": "puzzle",
-            "image": "images/jzh/roadmap/v0.1 gif.gif"
+            "image": "images/jzh/roadmap/Demo video.gif"
         },
         {
             "date": "December 2026",
@@ -77,7 +77,7 @@
             "finished": false,
             "doingIcon": "bulb-outline",
             "doneIcon": "bulb-outline",
-            "image": "images/jzh/roadmap/v0.1 gif.gif"
+            "image": "images/jzh/roadmap/Early Access.gif"
         },
         {
             "date": "",
@@ -102,7 +102,7 @@
             "finished": false,
             "doingIcon": "planet",
             "doneIcon": "planet",
-            "image": "images/jzh/roadmap/v0.1 gif.gif"
+            "image": "images/jzh/roadmap/spaceenv.PNG"
         },
         {
             "date": "",
@@ -127,7 +127,7 @@
             "finished": false,
             "doingIcon": "ribbon",
             "doneIcon": "ribbon",
-            "image": "images/jzh/roadmap/v0.1 gif.gif"
+            "image": "images/jzh/roadmap/BATTLE.webp"
         },
         {
             "date": "",
@@ -152,7 +152,7 @@
             "finished": false,
             "doingIcon": "construct",
             "doneIcon": "construct",
-            "image": "images/jzh/roadmap/v0.1 gif.gif"
+            "image": "images/jzh/roadmap/driving.gif"
         }
     ]
 }
