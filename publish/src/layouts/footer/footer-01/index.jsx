@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import FooterLinkWidget from "@widgets/footer-link-widget";
+import LogoWidget from "@widgets/logo-widget";
 import SocialWidget from "@widgets/social-widget";
 import { ItemType } from "@utils/types";
 import React from "react";
@@ -39,6 +40,7 @@ const Footer = ({ space, className, data }) => (
                         className="col-md-4 col-sm-4"
                         style={{ textAlign: "center" }}
                     >
+                        <LogoWidget data={footerData["logo-widget"]} />
                         {footerData.footer_address?.map(
                             (address_line, index) => (
                                 <React.Fragment key={index}>

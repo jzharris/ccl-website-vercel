@@ -3,7 +3,7 @@ import Logo from "@components/logo";
 
 const LogoWidget = ({ data }) => (
     <div className="footer-left">
-        <Logo logo={data.logo} />
+        <Logo logo={data.logo} width={160} height={92} />
         {data?.text && <p className="rn-footer-describe">{data.text}</p>}
     </div>
 );
