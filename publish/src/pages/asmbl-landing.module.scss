@@ -1,0 +1,428 @@
+.landing {
+    background: #080c18;
+    color: #fff;
+    overflow: hidden;
+
+    p {
+        color: rgba(255, 255, 255, 0.84);
+        line-height: 1.8;
+    }
+
+    h1,
+    h2 {
+        color: #fff;
+        font-weight: 800;
+        line-height: 1.1;
+    }
+}
+
+.scene {
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 78vh;
+    padding: 120px 24px 80px;
+    position: relative;
+
+    &::before {
+        background: linear-gradient(
+            90deg,
+            rgba(3, 6, 14, 0.86),
+            rgba(3, 6, 14, 0.48),
+            rgba(3, 6, 14, 0.82)
+        );
+        content: "";
+        inset: 0;
+        position: absolute;
+    }
+}
+
+.hero {
+    background-image: url("/images/jzh/roadmap/spaceenv.PNG");
+    min-height: 100vh;
+    text-align: center;
+
+    &::before {
+        background: linear-gradient(
+            180deg,
+            rgba(3, 6, 14, 0.28),
+            rgba(3, 6, 14, 0.48) 52%,
+            #080c18
+        );
+    }
+}
+
+.heroContent {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 860px;
+    position: relative;
+    z-index: 1;
+
+    h1 {
+        font-size: clamp(2.5rem, 7vw, 5rem);
+        margin: 28px 0;
+        text-transform: uppercase;
+    }
+}
+
+.logo {
+    height: auto;
+    max-width: min(100%, 620px);
+}
+
+.button {
+    background: #ff913d;
+    border: 2px solid #ff913d;
+    border-radius: 4px;
+    color: #10101a;
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    padding: 14px 22px;
+    text-align: center;
+    text-decoration: none;
+    transition:
+        background-color 160ms ease,
+        color 160ms ease,
+        transform 160ms ease;
+
+    &:hover,
+    &:focus-visible {
+        background: transparent;
+        color: #fff;
+        transform: translateY(-2px);
+    }
+}
+
+.scrollLink {
+    bottom: 30px;
+    color: #fff;
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 1;
+
+    span {
+        color: #ff913d;
+        display: block;
+        font-size: 1.5rem;
+        margin-top: 6px;
+    }
+}
+
+.about {
+    background-image: url("/images/jzh/bg/abstract_background_3_1.png");
+    min-height: 65vh;
+}
+
+.about::before {
+    background: rgba(3, 6, 14, 0.66);
+}
+
+.copyPanel {
+    max-width: 760px;
+    position: relative;
+    z-index: 1;
+
+    h2 {
+        border-bottom: 2px solid #ff913d;
+        display: inline-block;
+        font-size: clamp(2rem, 5vw, 3.5rem);
+        margin: 0 0 22px;
+        padding-bottom: 14px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: clamp(1rem, 1.8vw, 1.2rem);
+        margin: 0 0 16px;
+    }
+}
+
+.eyebrow {
+    color: #ffad68 !important;
+    font-size: 0.78rem !important;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    margin: 0 0 14px !important;
+    text-transform: uppercase;
+}
+
+.highlights {
+    background:
+        radial-gradient(ellipse at 50% 0, rgba(47, 64, 106, 0.24), transparent 68%),
+        #080c18;
+    padding: 76px 24px;
+}
+
+.contentWidth {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.highlightGrid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.highlight {
+    border-top: 2px solid #ff913d;
+    padding: 24px 18px 0;
+    text-align: center;
+
+    h2 {
+        font-size: 1.8rem;
+        letter-spacing: 0.12em;
+        margin: 0 0 14px;
+    }
+
+    p {
+        font-size: 0.98rem;
+        margin: 0;
+    }
+}
+
+.featureScene {
+    background-attachment: fixed;
+    min-height: 72vh;
+}
+
+.featureContent {
+    align-items: center;
+    display: grid;
+    gap: clamp(30px, 7vw, 100px);
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    max-width: 1200px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.featureContent.reverse {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+
+    .featureArtwork {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .copyPanel {
+        grid-column: 1;
+        grid-row: 1;
+    }
+}
+
+.featureArtwork {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.featureImage {
+    height: auto;
+    max-height: 440px;
+    max-width: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.ground {
+    background-image: url("/images/jzh/roadmap/driving.gif");
+}
+
+.air {
+    background-image: url("/images/jzh/roadmap/Early%20Access.gif");
+}
+
+.space {
+    background-image: url("/images/jzh/roadmap/v0.4%20gif.gif");
+}
+
+.mech {
+    background-image: url("/images/jzh/roadmap/BATTLE.webp");
+}
+
+.emphasis {
+    color: #ffad68 !important;
+    font-weight: 700;
+}
+
+.gallery {
+    background: #0e1424;
+    padding: 88px 24px;
+    text-align: center;
+
+    h2 {
+        font-size: clamp(2rem, 4vw, 3rem);
+        margin: 0 0 32px;
+    }
+}
+
+.galleryGrid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.galleryItem {
+    aspect-ratio: 16 / 9;
+    background: #05070d;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 5px;
+    display: block;
+    overflow: hidden;
+
+    img {
+        height: 100%;
+        object-fit: cover;
+        transition: transform 200ms ease;
+        width: 100%;
+    }
+
+    &:hover img,
+    &:focus-visible img {
+        transform: scale(1.04);
+    }
+}
+
+.community {
+    background-image: url("/images/jzh/roadmap/v1.0%20gif.gif");
+    min-height: 78vh;
+}
+
+.community::before {
+    background: rgba(3, 6, 14, 0.68);
+}
+
+.communityContent {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+
+    h2 {
+        font-size: clamp(3rem, 8vw, 6rem);
+        line-height: 0.95;
+        margin: 0 0 28px;
+    }
+}
+
+.storeLinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+
+.social {
+    background-image: url("/images/jzh/roadmap/Demo%20video.gif");
+    min-height: 44vh;
+    text-align: center;
+}
+
+.social::before {
+    background: rgba(3, 6, 14, 0.78);
+}
+
+.socialContent {
+    position: relative;
+    z-index: 1;
+
+    h2 {
+        font-size: clamp(1.8rem, 4vw, 2.8rem);
+        margin: 0 0 26px;
+    }
+}
+
+.socialLinks {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    a {
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 50%;
+        color: #fff;
+        display: flex;
+        font-size: 1.2rem;
+        height: 48px;
+        justify-content: center;
+        transition:
+            background-color 160ms ease,
+            border-color 160ms ease;
+        width: 48px;
+
+        &:hover,
+        &:focus-visible {
+            background: #ff913d;
+            border-color: #ff913d;
+            color: #10101a;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .hero {
+        min-height: 90svh;
+    }
+
+    .highlightGrid {
+        gap: 36px;
+        grid-template-columns: 1fr;
+    }
+
+    .featureScene {
+        min-height: auto;
+    }
+
+    .featureContent,
+    .featureContent.reverse {
+        gap: 28px;
+        grid-template-columns: 1fr;
+
+        .featureArtwork,
+        .copyPanel {
+            grid-column: 1;
+            grid-row: auto;
+        }
+    }
+
+    .featureArtwork {
+        max-height: 300px;
+    }
+
+    .featureImage {
+        max-height: 300px;
+    }
+
+    .galleryGrid {
+        gap: 10px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .featureScene {
+        background-attachment: scroll;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .button,
+    .galleryItem img,
+    .socialLinks a {
+        transition: none;
+    }
+}
