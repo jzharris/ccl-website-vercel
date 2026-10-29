@@ -148,23 +148,7 @@ const AsmblLanding = () => {
                 </a>
             </section>
 
-            <section
-                className={`${styles.scene} ${styles.about}`}
-                id="game"
-            >
-                <div className={styles.copyPanel}>
-                    <p className={styles.eyebrow}>A MULTIPLAYER VR SANDBOX</p>
-                    <h2>THE GAME</h2>
-                    <p>
-                        ASMBL lets you snap building blocks together to build
-                        anything imaginable. Create elegant machines or
-                        utterly ridiculous contraptions, then pilot planes,
-                        trains, cars, and mechs with your friends.
-                    </p>
-                </div>
-            </section>
-
-            <section className={styles.highlights} id="features">
+            {/* <section className={`${styles.scene} ${styles.about}`} id="features">
                 <div className={styles.contentWidth}>
                     <div className={styles.highlightGrid}>
                         {highlights.map((highlight) => (
@@ -178,7 +162,7 @@ const AsmblLanding = () => {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {gameFeatures.map((feature, index) => (
                 <section

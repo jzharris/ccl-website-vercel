@@ -1,5 +1,5 @@
 .landing {
-    background: #080c18;
+    background: transparent;
     color: #fff;
     overflow: hidden;
 
@@ -14,6 +14,10 @@
         font-weight: 800;
         line-height: 1.1;
     }
+}
+
+.landing + :global(.copy-right-one) {
+    background: #000;
 }
 
 .scene {
@@ -41,17 +45,16 @@
 }
 
 .hero {
-    // background-image: url("/images/jzh/roadmap/spaceenv.PNG");
-    background-color:rgba(255, 255, 255, 0);
+    background-image: none;
     min-height: 100vh;
     text-align: center;
 
     &::before {
         background: linear-gradient(
             180deg,
-            rgba(3, 6, 14, 0.28),
-            rgba(3, 6, 14, 0.48) 52%,
-            #080c18
+            rgba(3, 6, 14, 0.2),
+            rgba(3, 6, 14, 0.42) 75%,
+            rgba(3, 6, 14, 0.58)
         );
     }
 }
@@ -123,6 +126,11 @@
 .about {
     background-image: url("/images/jzh/bg/abstract_background_3_1.png");
     min-height: 65vh;
+
+    .contentWidth {
+        position: relative;
+        z-index: 1;
+    }
 }
 
 .about::before {
