@@ -132,7 +132,7 @@ const AsmblLanding = () => {
                     />
                     <h1>Build. Break. Battle.</h1>
                     <a className={styles.button} href="#community">
-                        WISHLIST NOW
+                        GET STARTED
                     </a>
                 </div>
                 <a className={styles.scrollLink} href="#game">
