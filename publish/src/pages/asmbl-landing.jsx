@@ -121,7 +121,7 @@ const AsmblLanding = () => {
         <Header />
         <main className={styles.landing} id="main-content">
             <section className={`${styles.scene} ${styles.hero}`}>
-                <div className={styles.heroContent}>
+                <div className={`row ${styles.heroContent}`}>
                     <Image
                         src="/images/jzh/logo/ASMBL_Logo_Demo_S1.PNG"
                         alt="ASMBL"
@@ -130,14 +130,22 @@ const AsmblLanding = () => {
                         priority
                         className={styles.logo}
                     />
-                    <h1>Build. Break. Battle.</h1>
-                    <a className={styles.button} href="#community">
+                    <h1>Build. Battle. Break.</h1>
+                    {/* <a className={styles.button} href="#community">
                         GET STARTED
-                    </a>
+                    </a> */}
+
+                    {/* <span style={{height:50}}></span> */}
+                    {/* <p className={styles.eyebrow}>YOUR NEXT BUILD AWAITS</p> */}
+                    {/* <h2>
+                        GET STARTED
+                    </h2> */}
+                    <ServiceArea data={content["service-section"]} space={2} />
+                    {/* <span style={{height:100}}></span>
+                    <a className={styles.scrollLink} href="#game">
+                        Scroll to explore <span aria-hidden="true">↓</span>
+                    </a> */}
                 </div>
-                <a className={styles.scrollLink} href="#game">
-                    Scroll to explore <span aria-hidden="true">↓</span>
-                </a>
             </section>
 
             {/* <section className={`${styles.scene} ${styles.about}`} id="features">
@@ -211,19 +219,6 @@ const AsmblLanding = () => {
                             </a>
                         ))}
                     </div>
-                </div>
-            </section>
-
-            <section
-                className={`${styles.scene2}`}
-                id="community"
-            >
-                <div className={styles.communityContent}>
-                    <p className={styles.eyebrow}>YOUR NEXT BUILD AWAITS</p>
-                    <h2>
-                        GET STARTED
-                    </h2>
-                    <ServiceArea data={content["service-section"]} />
                 </div>
             </section>
         </main>
