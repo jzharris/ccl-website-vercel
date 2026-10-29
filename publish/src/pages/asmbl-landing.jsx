@@ -130,7 +130,7 @@ const AsmblLanding = () => {
                         priority
                         className={styles.logo}
                     />
-                    <h1>Build. Battle. Break.</h1>
+                    <h1>Build. Break. Battle.</h1>
                     <a className={styles.button} href="#community">
                         WISHLIST NOW
                     </a>
