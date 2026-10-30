@@ -1,13 +1,19 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import Button from "@ui/button";
 import ErrorText from "@ui/error-text";
 import { useForm } from "react-hook-form";
+import Script from "next/script";
 import { useRouter } from "next/router";
 import { checkParam } from "@utils/utilities";
 
 const SignupForm = ({ className }) => {
+    const captchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+    const captchaContainer = useRef(null);
+    const captchaWidgetId = useRef(null);
+    const [captchaToken, setCaptchaToken] = useState("");
+    const [captchaError, setCaptchaError] = useState("");
     const router = useRouter();
     const {
         register,
@@ -26,16 +32,26 @@ const SignupForm = ({ className }) => {
             submitting: false,
             status: { ok, msg },
         });
+        if (captchaSiteKey) {
+            window.grecaptcha?.reset(captchaWidgetId.current);
+            setCaptchaToken("");
+            setCaptchaError("");
+        }
         if (ok) {
             form.reset();
         }
     };
     const onSubmit = (data, e) => {
+        if (captchaSiteKey && !captchaToken) {
+            setCaptchaError("Please complete the CAPTCHA");
+            return;
+        }
+
         const form = e.target;
         setServerState({ submitting: true });
         fetch("/api/register",{
             method: "POST",
-            body: JSON.stringify(data),
+            body: JSON.stringify(captchaSiteKey ? { ...data, captchaToken } : data),
             headers: {
               "Content-type": "application/json"
             }
@@ -57,6 +73,57 @@ const SignupForm = ({ className }) => {
         <div className={clsx("form-wrapper-one", className)}>
             <h4>Sign Up</h4>
             <form onSubmit={handleSubmit(onSubmit)}>
+                {captchaSiteKey && (
+                    <div className="mb-5">
+                        <Script
+                            src="https://www.google.com/recaptcha/api.js?render=explicit"
+                            strategy="afterInteractive"
+                            onReady={() => {
+                                window.grecaptcha.ready(() => {
+                                    if (
+                                        !captchaContainer.current ||
+                                        captchaWidgetId.current !== null
+                                    ) {
+                                        return;
+                                    }
+
+                                    captchaWidgetId.current =
+                                        window.grecaptcha.render(
+                                            captchaContainer.current,
+                                            {
+                                                sitekey: captchaSiteKey,
+                                                callback: (token) => {
+                                                    setCaptchaToken(token);
+                                                    setCaptchaError("");
+                                                },
+                                                "expired-callback": () => {
+                                                    setCaptchaToken("");
+                                                    setCaptchaError(
+                                                        "CAPTCHA expired. Please complete it again."
+                                                    );
+                                                },
+                                                "error-callback": () => {
+                                                    setCaptchaToken("");
+                                                    setCaptchaError(
+                                                        "Unable to load CAPTCHA. Please try again."
+                                                    );
+                                                },
+                                            }
+                                        );
+                                });
+                            }}
+                            onError={() =>
+                                setCaptchaError(
+                                    "Unable to load CAPTCHA. Please try again."
+                                )
+                            }
+                        />
+                        <div ref={captchaContainer} />
+                        {captchaError && (
+                            <ErrorText>{captchaError}</ErrorText>
+                        )}
+                    </div>
+                )}
                 <div className="mb-5">
                     <label htmlFor="username" className="form-label">
                         Username
