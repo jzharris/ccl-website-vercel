@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 import { checkParam } from "@utils/utilities";
 
 const SignupForm = ({ className }) => {
-    const captchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+    const captchaSiteKey = "6Lfv-wguAAAAANU4YwaL2rup-tByNyeNQM6Ur6gX";
     const captchaContainer = useRef(null);
     const captchaWidgetId = useRef(null);
     const [captchaToken, setCaptchaToken] = useState("");
