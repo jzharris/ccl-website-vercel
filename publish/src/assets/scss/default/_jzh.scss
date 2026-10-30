@@ -13,6 +13,10 @@
     opacity: 1 !important;
 }
 
+.timeline-date--empty {
+    display: none;
+}
+
 .roadmap-scroll-anchor {
     display: block;
     height: 0;
@@ -180,12 +184,16 @@
     }
 
     .roadmap-vertical .vertical-timeline-element-content {
-        padding: 0.75em;
+        padding: 0.75em 0.75em 0.75em 1.5em;
 
         img {
             max-height: 120px;
             object-fit: contain;
         }
+    }
+
+    .roadmap-vertical .vertical-timeline-element-content h3 {
+        margin-top: 24px;
     }
 
 }

@@ -208,7 +208,11 @@ const RoadmapArea = ({
                                         borderRight: `${statusColor} 7px solid`,
                                     }}
                                     date={item.date}
-                                    dateClassName="timeline-date"
+                                    dateClassName={
+                                        item.date
+                                            ? "timeline-date"
+                                            : "timeline-date timeline-date--empty"
+                                    }
                                     iconStyle={{
                                         background: statusColor,
                                         color: "#fff",
