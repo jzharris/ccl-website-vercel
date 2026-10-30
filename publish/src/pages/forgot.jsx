@@ -15,7 +15,7 @@ const SignUp = () => (
         <Header />
         <main id="main-content">
             <Breadcrumb pageTitle="Forgot Password" currentPage="Forgot Password" />
-            <ForgotPasswordArea />
+            {/* <ForgotPasswordArea /> */}
         </main>
         <Footer />
     </Wrapper>
