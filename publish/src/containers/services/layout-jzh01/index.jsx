@@ -23,7 +23,7 @@ const ServiceArea = ({ className, id, space, data }) => (
                 </div>
             )}
             {data?.items && (
-                <div className="row g-5 justify-content-center">
+                <div className="row g-5 justify-content-center service-area-grid">
                     {data.items.map((item) => (
                         <div
                             className="col-xxl-3 col-lg-4 col-md-6 col-sm-12 col-12"

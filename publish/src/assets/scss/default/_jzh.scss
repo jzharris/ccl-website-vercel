@@ -142,6 +142,35 @@
 }
 
 @media (orientation: portrait) {
+    .rn-service-area .service-area-grid > div {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .rn-service-area .service-area-grid .subtitle,
+    .rn-service-area .service-area-grid .description {
+        display: none;
+    }
+
+    .rn-service-area .service-area-grid .read-more-button {
+        display: none;
+    }
+
+    .rn-service-area .service-area-grid .rn-service-one {
+        padding: 24px 16px 12px;
+    }
+
+    .rn-service-area .service-area-grid .rn-service-one .inner .icon img {
+        height: 36px !important;
+        max-height: 36px !important;
+        width: auto;
+    }
+
+    .rn-service-area .service-area-grid .rn-service-one .inner .content .title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
     .roadmap-vertical .vertical-timeline {
         padding: 1em 0;
     }
