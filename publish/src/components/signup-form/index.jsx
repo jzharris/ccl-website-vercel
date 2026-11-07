@@ -5,8 +5,6 @@ import Button from "@ui/button";
 import ErrorText from "@ui/error-text";
 import { useForm } from "react-hook-form";
 import Script from "next/script";
-import { useRouter } from "next/router";
-import { checkParam } from "@utils/utilities";
 
 const SignupForm = ({ className }) => {
     const captchaSiteKey = "6Lfv-wguAAAAANU4YwaL2rup-tByNyeNQM6Ur6gX";
@@ -14,7 +12,6 @@ const SignupForm = ({ className }) => {
     const captchaWidgetId = useRef(null);
     const [captchaToken, setCaptchaToken] = useState("");
     const [captchaError, setCaptchaError] = useState("");
-    const router = useRouter();
     const {
         register,
         handleSubmit,
