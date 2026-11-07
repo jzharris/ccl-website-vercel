@@ -15,7 +15,7 @@ const SignUp = () => (
         <Header />
         <main id="main-content">
             <Breadcrumb pageTitle="Sign Up" currentPage="Sign Up" />
-            {/* <SignUpArea /> */}
+            <SignUpArea />
         </main>
         <Footer />
     </Wrapper>

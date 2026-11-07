@@ -395,7 +395,7 @@ const CreateNewArea = ({ className, space }) => {
 
 CreateNewArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1]),
+    space: PropTypes.oneOf([0, 1]),
 };
 
 CreateNewArea.defaultProps = {

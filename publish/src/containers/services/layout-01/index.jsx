@@ -47,7 +47,7 @@ const ServiceArea = ({ className, id, space, data }) => (
 ServiceArea.propTypes = {
     className: PropTypes.string,
     id: PropTypes.string,
-    space: PropTypes.oneOf([1, 2]),
+    space: PropTypes.oneOf([0, 1, 2]),
     data: PropTypes.shape({
         section_title: SectionTitleType,
         items: PropTypes.arrayOf(ItemType),

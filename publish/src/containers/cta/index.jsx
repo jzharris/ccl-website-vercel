@@ -78,7 +78,7 @@ const CTAArea = ({ space, className, data }) => (
 );
 
 CTAArea.propTypes = {
-    space: PropTypes.oneOf([1, 2]),
+    space: PropTypes.oneOf([0, 1, 2]),
     className: PropTypes.string,
     data: PropTypes.shape({
         texts: PropTypes.arrayOf(TextType),

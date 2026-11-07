@@ -21,7 +21,7 @@ const VerifyFailedArea = ({ className, space }) => {
 
 VerifyFailedArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1]),
+    space: PropTypes.oneOf([0, 1]),
 };
 
 VerifyFailedArea.defaultProps = {

@@ -68,7 +68,7 @@ const CreatorArea = ({ className, space, data }) => {
 
 CreatorArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1, 2]),
+    space: PropTypes.oneOf([0, 1, 2]),
     data: PropTypes.shape({
         creators: PropTypes.arrayOf(SellerType),
     }),

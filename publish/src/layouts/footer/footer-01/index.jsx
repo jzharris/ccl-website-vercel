@@ -57,7 +57,7 @@ const Footer = ({ space, className, data }) => (
 );
 
 Footer.propTypes = {
-    space: PropTypes.oneOf([1, 2, 3]),
+    space: PropTypes.oneOf([0, 1, 2, 3]),
     className: PropTypes.string,
     data: PropTypes.shape({
         items: PropTypes.arrayOf(ItemType),

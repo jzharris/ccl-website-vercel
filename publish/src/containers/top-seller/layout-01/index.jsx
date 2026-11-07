@@ -79,7 +79,7 @@ const TopSellerArea = ({ className, space, id, data }) => {
 TopSellerArea.propTypes = {
     className: PropTypes.string,
     id: PropTypes.string,
-    space: PropTypes.oneOf([1, 2, 3]),
+    space: PropTypes.oneOf([0, 1, 2, 3]),
     data: PropTypes.shape({
         section_title: SectionTitleType,
         sellers: PropTypes.arrayOf(SellerType),

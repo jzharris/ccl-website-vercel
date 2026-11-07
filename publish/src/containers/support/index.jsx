@@ -121,7 +121,7 @@ const SupportArea = ({ className, space }) => (
 
 SupportArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1, 2]),
+    space: PropTypes.oneOf([0, 1, 2]),
 };
 SupportArea.defaultProps = {
     space: 0,

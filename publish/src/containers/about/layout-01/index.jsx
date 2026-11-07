@@ -26,7 +26,7 @@ const AboutArea = ({ className, space, data }) => (
 
 AboutArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1, 2]),
+    space: PropTypes.oneOf([0, 1, 2]),
     data: PropTypes.shape({
         title: PropTypes.string,
         description: PropTypes.string,

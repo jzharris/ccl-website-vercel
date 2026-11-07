@@ -27,7 +27,7 @@ const LoginArea = ({ className, space }) => (
 
 LoginArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1]),
+    space: PropTypes.oneOf([0, 1]),
 };
 
 LoginArea.defaultProps = {

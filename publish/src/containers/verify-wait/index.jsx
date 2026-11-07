@@ -21,7 +21,7 @@ const VerifyWaitArea = ({ className, space }) => {
 
 VerifyWaitArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1]),
+    space: PropTypes.oneOf([0, 1]),
 };
 
 VerifyWaitArea.defaultProps = {

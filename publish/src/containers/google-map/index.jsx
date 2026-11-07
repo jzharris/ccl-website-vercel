@@ -34,7 +34,7 @@ const GoogleMapArea = ({ space, className }) => (
 );
 
 GoogleMapArea.propTypes = {
-    space: PropTypes.oneOf([1, 2]),
+    space: PropTypes.oneOf([0, 1, 2]),
     className: PropTypes.string,
 };
 

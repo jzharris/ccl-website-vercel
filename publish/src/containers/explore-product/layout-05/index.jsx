@@ -98,7 +98,7 @@ const ExploreProductArea = ({ data, className, space }) => (
 
 ExploreProductArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1, 2]),
+    space: PropTypes.oneOf([0, 1, 2]),
     data: PropTypes.shape({
         section_title: SectionTitleType,
         products: PropTypes.arrayOf(ProductType).isRequired,

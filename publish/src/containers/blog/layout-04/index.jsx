@@ -44,7 +44,7 @@ const BlogArea = ({ space, className, data, rootPage }) => (
 );
 
 BlogArea.propTypes = {
-    space: PropTypes.oneOf([1, 2]),
+    space: PropTypes.oneOf([0, 1, 2]),
     className: PropTypes.string,
     data: PropTypes.shape({
         posts: PropTypes.arrayOf(PropTypes.shape({})),

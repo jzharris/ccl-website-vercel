@@ -131,7 +131,7 @@ const AuthorIntroArea = ({ className, space, data }) => {
 
 AuthorIntroArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1]),
+    space: PropTypes.oneOf([0, 1]),
     data: PropTypes.shape({
         name: PropTypes.string,
         twitter: PropTypes.string,

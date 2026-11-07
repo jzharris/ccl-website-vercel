@@ -89,7 +89,7 @@ const ExploreProductArea = ({ className, space, data, id }) => {
 
 ExploreProductArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1, 2]),
+    space: PropTypes.oneOf([0, 1, 2]),
     id: PropTypes.string,
     data: PropTypes.shape({
         section_title: SectionTitleType,

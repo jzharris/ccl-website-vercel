@@ -73,7 +73,7 @@ const CollectionArea = ({ className, space, id, data }) => {
 CollectionArea.propTypes = {
     className: PropTypes.string,
     id: PropTypes.string,
-    space: PropTypes.oneOf([1]),
+    space: PropTypes.oneOf([0, 1]),
     data: PropTypes.shape({
         collections: PropTypes.arrayOf(CollectionType),
     }),

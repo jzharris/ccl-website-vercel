@@ -244,7 +244,7 @@ const RoadmapArea = ({
 
 RoadmapArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1, 2, 3]),
+    space: PropTypes.oneOf([0, 1, 2, 3]),
     items: PropTypes.array,
     showH3: PropTypes.bool,
     showH4: PropTypes.bool,

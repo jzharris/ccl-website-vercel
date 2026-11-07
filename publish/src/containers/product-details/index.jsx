@@ -71,7 +71,7 @@ const ProductDetailsArea = ({ space, className, product }) => (
 );
 
 ProductDetailsArea.propTypes = {
-    space: PropTypes.oneOf([1, 2]),
+    space: PropTypes.oneOf([0, 1, 2]),
     className: PropTypes.string,
     product: PropTypes.shape({
         title: PropTypes.string.isRequired,

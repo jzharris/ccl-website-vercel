@@ -42,7 +42,7 @@ const TermsAndConditionsArea = ({ className, space, conditions }) => (
 
 TermsAndConditionsArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1]),
+    space: PropTypes.oneOf([0, 1]),
 };
 TermsAndConditionsArea.defaultProps = {
     space: 0,

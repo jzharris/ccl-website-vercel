@@ -28,7 +28,7 @@ const CategoryArea = ({ className, space, data: { items } }) => (
 
 CategoryArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1, 2]),
+    space: PropTypes.oneOf([0, 1, 2]),
     data: PropTypes.shape({
         items: PropTypes.arrayOf(
             PropTypes.shape({

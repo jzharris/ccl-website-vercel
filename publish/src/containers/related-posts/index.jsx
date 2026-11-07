@@ -23,7 +23,7 @@ const RelatedPostsArea = ({ space, className, relatedPosts, rootPage }) => (
 );
 
 RelatedPostsArea.propTypes = {
-    space: PropTypes.oneOf([1, 2]),
+    space: PropTypes.oneOf([0, 1, 2]),
     className: PropTypes.string,
     relatedPosts: PropTypes.arrayOf(PropTypes.shape({})),
     rootPage: PropTypes.string,

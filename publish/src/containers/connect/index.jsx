@@ -166,7 +166,7 @@ const ConnectArea = ({ className, space }) => (
 
 ConnectArea.propTypes = {
     className: PropTypes.string,
-    space: PropTypes.oneOf([1]),
+    space: PropTypes.oneOf([0, 1]),
 };
 ConnectArea.defaultProps = {
     space: 0,
